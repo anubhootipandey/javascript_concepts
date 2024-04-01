@@ -21,7 +21,7 @@ function waitForSomeTime(ms) {
     
     return "Done";
   }
-  
+ 
   // Call the async function and handle its result using then() method
   exampleAsyncFunction()
     .then(result => {
