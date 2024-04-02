@@ -1,0 +1,5 @@
+/*------------------Interview Question---------------------------*/
+
+1.What is the difference between authentication and authorization?
+---->Authentication is the process of verifying who the user is whereas authorization is the process of verifying what they
+     have access to i.e., what files or data user has access to.
