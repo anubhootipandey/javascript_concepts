@@ -7,14 +7,10 @@
 </head>
 <body>
     <script>
-        function guessArray(){
-            let a = [1, 2];
-            let b = [1, 2];
-
-            console.log(a == b);
-            console.log(a === b);
-        }
-        guessArray();
+        const a = [1, 2, 3];
+        const b = [...a];
+        b.push(4);
+        console.log(a);
     </script>
 </body>
 </html>
