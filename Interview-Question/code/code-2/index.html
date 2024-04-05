@@ -7,10 +7,19 @@
 </head>
 <body>
     <script>
-        const a = [1, 2, 3];
-        const b = [...a];
-        b.push(4);
-        console.log(a);
+        // const a = [1, 2, 3];
+        // const b = [...a];
+        // b.push(4);
+        // console.log(a);
+        const people = [
+            {
+                name:"Sattu",
+                age:15
+            }
+        ];
+        const employees = [...people];
+        employees[0].age = 35;
+        console.log(people);
     </script>
 </body>
 </html>
