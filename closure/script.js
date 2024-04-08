@@ -87,7 +87,6 @@ const two = 2;
   // This succeeds, as 'two' is available from the outer lexical scope
   const oneLess = two - 1;
 }
-
 // This throws an error because oneLess is not defined outside of the previous inner lexical scope
 console.log(oneLess);
 /*While we can use braces ({...}) arbitrarily to create blocks, they are most often encountered surrounding if
