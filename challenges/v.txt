@@ -18,4 +18,8 @@
 4.What is specificity of CSS?
 5.What is Box Model?
 6.What is the difference between box-sizing:border-box; and box-sizing:content-box?
-
+7.What is the default value of position property?
+8.Let's say if some element has static property and we give top: 50px; what will happen on that element? And if nothing, 
+  then what will happen if we use relative property?
+9.What is the difference between position:relative and position:absolute?
+10.difference between pseudo class and pseudo elements?
