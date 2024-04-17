@@ -1,0 +1,21 @@
+/****************************************INTERVIEW QUESTION***********************************************/
+
+---------------------------------HTML---------------------------------------
+1.What is the need of HTML?
+2.Why do we use DOCTYPE in HTML file?
+3.What is the difference between http and https?
+4.What are semantic types in HTML?
+5.What is the need to use semantic types?
+6.What are attributes in HTML?
+7.What is the difference between canvas tag and svg tag?
+8.What is the difference between div and span?
+9.What are inline element and block element?
+
+--------------------------------CSS-------------------------------
+1.Full form of CSS
+2.What do you mean by cascading?
+3.What is cascade rule in CSS?
+4.What is specificity of CSS?
+5.What is Box Model?
+6.What is the difference between box-sizing:border-box; and box-sizing:content-box?
+
