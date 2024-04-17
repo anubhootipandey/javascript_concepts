@@ -1,6 +1,6 @@
 /****************************************INTERVIEW QUESTION***********************************************/
 
----------------------------------HTML---------------------------------------
+---------------------------------HTML-----------------------------------------------------
 1.What is the need of HTML?
 2.Why do we use DOCTYPE in HTML file?
 3.What is the difference between http and https?
@@ -11,7 +11,7 @@
 8.What is the difference between div and span?
 9.What are inline element and block element?
 
---------------------------------CSS-------------------------------
+--------------------------------CSS---------------------------------------------------------
 1.Full form of CSS
 2.What do you mean by cascading?
 3.What is cascade rule in CSS?
@@ -23,3 +23,13 @@
   then what will happen if we use relative property?
 9.What is the difference between position:relative and position:absolute?
 10.difference between pseudo class and pseudo elements?
+
+----------------------------------JAVASCRIPT----------------------------------------------------
+1.What are the former name of Javascript?
+2.Is Javascript compiled or interpreter?
+3.Why do we use Javascript?
+4.What are different data types in Javascript?
+5.Is Javascript single threaded or multi threaded? And why?
+6.What is asynchronous function and why it is used?
+7.What is browser object model(BOM)? What is the use of this?
+8.
