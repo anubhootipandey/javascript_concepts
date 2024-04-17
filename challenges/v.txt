@@ -32,4 +32,6 @@
 5.Is Javascript single threaded or multi threaded? And why?
 6.What is asynchronous function and why it is used?
 7.What is browser object model(BOM)? What is the use of this?
-8.
+8.What is DOM?
+9.What is event bubbling and event capturing?
+
