@@ -35,3 +35,9 @@
 8.What is DOM?
 9.What is event bubbling and event capturing?
 
+------------------------------------------------REACT--------------------------------------------------
+1.Why do we use React?
+2.What is Virtual DOM?
+3.What is diffing algorithm?
+4.What is React Fibre?
+
