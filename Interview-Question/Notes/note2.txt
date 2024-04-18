@@ -1,0 +1,11 @@
+1. How basic request is work ?
+2. Do you know what is TCP && UDP ?
+3. Js Is singleThreaded and why is it so?
+4.  Do you know interpreted programming language ?
+5 . How loosly type and strongly type work ?
+6. Why js is loosely type ?
+7. What are closures in js ?
+8. Why and where we use closure in Real life ?
+9. Why Reactjs is use over Vanilla js and what is Advantage read about  Reconcilation? 
+10 . What is JSX && do you see any advantage?
+11 . Built a simple form with validation ? 
