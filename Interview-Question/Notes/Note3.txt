@@ -1,0 +1,31 @@
+1.Why do we use Doctype in HTML?
+---To tell the browser which version of HTML we are using.
+
+2.What is the use of Head tag?
+---It basically includes all the meta tags which are useful for SEO and it also includes title and external links.
+
+3.Which one is better to put script tag in our html: a-Head tag b-Body Tag?
+---Both options have their advantages and use cases, but generally, it's considered best practice to place <script> tags at the end of the <body> tag, just before the closing </body> tag. This is because:
+
+Page Loading: Placing scripts at the end of the body allows the HTML content to load first, making the page appear to load faster for the user.
+Parsing: When the browser encounters a script tag, it pauses parsing the HTML content and executes the script. By placing scripts at the end of the body, you ensure that the HTML content is fully parsed before any scripts are executed, which can improve performance.
+DOM Manipulation: Placing scripts at the end of the body ensures that the DOM (Document Object Model) is fully constructed before scripts attempt to manipulate it. This can prevent issues where scripts try to access elements that haven't been loaded yet.
+However, there are exceptions to this guideline. If a script needs to run before the DOM is fully loaded, such as initializing some critical functionality or setting up event listeners, it may be necessary to place the script in the <head> section. Additionally, for scripts that are essential for rendering the page properly (e.g., CSS or JavaScript polyfills), placing them in the <head> section might be more appropriate.
+
+4.Can we create any custom element in HTML?
+
+5.Will the content shift down if we give padding top to inline elements?
+
+6.What is display property of images?
+---inline
+
+7.Two categories of iniline elements?
+---a-Replaced:-those which through sorces like image, iframes, video, etc. b-Non-replaced:-span, anchor,etc. 
+
+8.What is box model?
+---is how the browser calculates the height and width of any element with including elelment height and width and without including element height and width.
+---it has two property content and border-box.
+---by default the content box is enabled in which like the height and width would not contain the margin and border of any element but border box that will be ncluded while calculating the height and width of that element 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+

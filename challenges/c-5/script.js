@@ -4,17 +4,16 @@ console.log([1, 2] == [1, 2]);
 //-----false
 
 //------REASON
-// When you use the === operator to compare two arrays, you're actually comparing whether they refer to the exact 
-// same memory location in the computer's memory. In this case, even though the two arrays have the same values [1, 2, 3], 
-// they are two separate instances in memory, and therefore their references are not the same.
+// This might seem counter intuitive at first, but it's important to understand how JavaScript compares arrays. 
+// When you use the equality operator (==), JavaScript compares the references of the arrays, not their contents. 
+// Since arrays are reference types in JavaScript, even if two arrays have the same values, they are considered different if they occupy different memory locations.
 
-// If you want to compare the content of two arrays for equality, you would need to do a deep comparison, checking 
-// each element of the arrays to see if they are equal. You can achieve this using various methods, such as a loop 
-// or by converting the arrays to strings and comparing the strings.
+// In this case, [1, 2] and [1, 2] are two distinct arrays, each occupying its own memory space. 
+// So, when you compare them using ==,JavaScript sees them as different references and returns false.
 
 const array1 = [1, 2, 3]; 
 const array2 = [1, 2, 3]; 
  
-// Comparing the content of arrays using JSON.stringify 
+//Task2: Comparing the content of arrays using JSON.stringify 
 const isEqual = JSON.stringify(array1) === JSON.stringify(array2); 
 console.log(isEqual); // true 
