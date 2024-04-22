@@ -5,12 +5,7 @@
 ---It basically includes all the meta tags which are useful for SEO and it also includes title and external links.
 
 3.Which one is better to put script tag in our html: a-Head tag b-Body Tag?
----Both options have their advantages and use cases, but generally, it's considered best practice to place <script> tags at the end of the <body> tag, just before the closing </body> tag. This is because:
-
-Page Loading: Placing scripts at the end of the body allows the HTML content to load first, making the page appear to load faster for the user.
-Parsing: When the browser encounters a script tag, it pauses parsing the HTML content and executes the script. By placing scripts at the end of the body, you ensure that the HTML content is fully parsed before any scripts are executed, which can improve performance.
-DOM Manipulation: Placing scripts at the end of the body ensures that the DOM (Document Object Model) is fully constructed before scripts attempt to manipulate it. This can prevent issues where scripts try to access elements that haven't been loaded yet.
-However, there are exceptions to this guideline. If a script needs to run before the DOM is fully loaded, such as initializing some critical functionality or setting up event listeners, it may be necessary to place the script in the <head> section. Additionally, for scripts that are essential for rendering the page properly (e.g., CSS or JavaScript polyfills), placing them in the <head> section might be more appropriate.
+---
 
 4.Can we create any custom element in HTML?
 
@@ -27,5 +22,40 @@ However, there are exceptions to this guideline. If a script needs to run before
 ---it has two property content and border-box.
 ---by default the content box is enabled in which like the height and width would not contain the margin and border of any element but border box that will be ncluded while calculating the height and width of that element 
 
+9.What is specificity in css?
+10.What is the diiference between relative and absolute?
+11.what is flexbox?
 -------------------------------------------------------------------------------------------------------------------------------------------------
+1.What are promises?
+---promises are basically special object in JavaScript which represents the eventual completion of an asynchronous operation.
+--It has three states in starting with the pending and then resolved or reject based on the operation that we performed asynchronously
+
+2.What is the difference between let and var?
+3.Why it means reference type?
+4.Different states of promises?
+---pending, fulfilled and Rejected.
+
+5.What is event capturing and event bubbling?
+---Event Capturing (or Capturing Phase):
+In the capturing phase, the browser starts from the outermost ancestor element of the target element and moves towards the target element.
+Events are captured from the root of the DOM tree down to the target element.
+Event handlers registered on ancestor elements are invoked first, before reaching the target element.
+This phase allows you to capture events at a higher level of the DOM tree before they reach their target.
+---Event Bubbling (or Bubbling Phase):
+In the bubbling phase, after the event has been handled at the target element, the browser propagates the event back up the DOM tree from the target element to the outermost ancestor.
+Event handlers registered on ancestor elements are invoked after the event has been handled at the target element.
+This phase allows you to handle events as they bubble up through the DOM tree.
+
+6.why do we need react, we can use javascript if we have to perform any function, why react is needed?
+----JavaScript is indeed powerful and versatile, and it can be used to build dynamic and interactive web applications on its own. However, frameworks like React provide additional benefits and features that make it easier and more efficient to develop complex web applications. Here are some reasons why React is commonly used:
+
+--Component-Based Architecture: React is built around the concept of reusable components. Components allow you to break down the user interface into small, isolated pieces, making it easier to manage and maintain your codebase. Each component encapsulates its own logic, markup, and styles, promoting code reusability and modularity.
+--Virtual DOM: React uses a virtual DOM (Document Object Model) to efficiently update the UI. Instead of directly manipulating the browser's DOM, React creates a lightweight representation of the DOM in memory. When state or props change, React calculates the difference between the current virtual DOM and the new virtual DOM and updates only the necessary parts of the actual DOM. This approach improves performance and reduces unnecessary re-renders.
+--Declarative Syntax: React's declarative syntax allows you to describe how your UI should look at any given time, based on the application's state. You specify the desired UI state, and React takes care of updating the DOM to match that state. This makes it easier to understand, reason about, and debug your code compared to imperative approaches.
+--One-Way Data Flow: React follows a unidirectional data flow, where data flows from parent components to child components via props. This helps maintain a clear and predictable data flow throughout your application, reducing the likelihood of bugs and making it easier to trace the source of state changes.
+--Rich Ecosystem and Community: React has a large and active community, with extensive documentation, tutorials, and resources available. It also has a rich ecosystem of libraries, tools, and extensions (such as React Router, Redux, and React Native) that enhance its functionality and make it suitable for building various types of applications, including single-page applications (SPAs), progressive web apps (PWAs), and mobile apps.
+While it's possible to build web applications using only JavaScript, frameworks like React provide developers with a set of tools and patterns that streamline the development process, improve code organization, and enhance the overall user experience. Ultimately, the choice of whether to use React (or any other framework) depends on the specific requirements, preferences, and goals of the project.
+
+
+
 
