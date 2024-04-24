@@ -1,0 +1,11 @@
+1.Difference between tag and element?
+2.What are attributes?
+3.Difference between div and span?
+4.Example of inline element?
+5.Can we give height and width to inline elements?
+6.Why image tag used height and width as it is inline elements?
+7.Types of inline elements?
+8.Difference between canvas and svg?
+9.Meaning of cascading?
+10.What is specificity?
+11.What is flexbox?
