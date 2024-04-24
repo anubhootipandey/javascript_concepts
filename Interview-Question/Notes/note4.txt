@@ -9,3 +9,13 @@
 9.Meaning of cascading?
 10.What is specificity?
 11.What is flexbox?
+12.what is box model in css?
+13.Default value of box sizing?
+ -----------------------------------------------------------
+
+ 1.Why do we need javascript ?
+ 2.Why do we have two types of datatype?
+ 3.In how many ways we can create variable in js?
+ 4.Difference between parameter and arguments?
+ 5.Difference between slice and splice array method?
+ 6.
