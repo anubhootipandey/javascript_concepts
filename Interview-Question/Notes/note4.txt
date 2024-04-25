@@ -8,9 +8,14 @@
 8.Difference between canvas and svg?
 9.Meaning of cascading?
 10.What is specificity?
+--it is a rule set by CSS
 11.What is flexbox?
 12.what is box model in css?
 13.Default value of box sizing?
+14.What are global attributes?
+15.Why do we use semantic tag in hTML?
+--For SEO purposes
+--more readable
  -----------------------------------------------------------
 
  1.Why do we need javascript ?
@@ -18,4 +23,14 @@
  3.In how many ways we can create variable in js?
  4.Difference between parameter and arguments?
  5.Difference between slice and splice array method?
- 6.
+ 6.Why do we use map method in array?
+ 7.What is DOM?
+ 
+ -----------------------------------------------------------------
+Note-Js is imperative nad react is declarative.
+
+ 1.Why do we use react ?
+ 2.What is concept of state?
+ 3.Why do we use react state instead of normal variable?
+ 
+ 
