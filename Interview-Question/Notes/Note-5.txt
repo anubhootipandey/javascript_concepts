@@ -1,0 +1,15 @@
+1.What kind of scoping does JavaScript use?
+--Lexical scope
+
+2.What is the expected output?
+var add = (function ( ) {
+  var counter = 0;
+  return function ( ) {
+       counter += 1; 
+       return counter;
+}
+})();    
+console.log(add());
+console.log(add());
+console.log(add());
+--Self Invoking Functions are used Explanation: The function that IIFE is returning contains the lexical context of the IIFE, and it's stored in ‘add’. It gets invoked 3 times, and each time the counter is updated in the same lexical context.
