@@ -13,3 +13,19 @@ console.log(add());
 console.log(add());
 console.log(add());
 --Self Invoking Functions are used Explanation: The function that IIFE is returning contains the lexical context of the IIFE, and it's stored in ‘add’. It gets invoked 3 times, and each time the counter is updated in the same lexical context.
+
+
+Q1. Explain Hoisting in javascript? (Uber)
+Ans. Hoisting is the default behaviour of javascript, where all the variable and function declarations are moved on top.
+Both functions and variables are hoisted in javascript.
+hoistedVariable = 3;
+console.log(hoistedVariable); // outputs 3 even when the variable is declared after it is initialized    
+var hoistedVariable;
+
+Q2. What is the role of a strict mode in JavaScript ? (Twitter)
+Ans.The JavaScript strict mode is used to generates silent errors. It provides a "use strict"; expression to enable the strict mode. 
+This expression can only be placed as the first statement in a script or a function. 
+"use strict";    
+x=10;    
+console.log(x);   
+ 
