@@ -1,4 +1,14 @@
 1. How basic request is work ?
+--Sure, here's a brief overview of how a basic request works:
+Initiation: The client sends a request to the server.
+Routing: The request is routed to the appropriate endpoint or resource on the server.
+Processing: The server processes the request, which may involve querying a database, executing some business logic, or fetching data from other services.
+Response: The server sends back a response to the client.
+Handling: The client receives the response and handles it accordingly, whether it's displaying data to the user or performing further actions based on the response.
+This process typically involves communication over a network, often using HTTP or a similar protocol, but the exact details can vary depending on the specific technologies being used.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 2. Do you know what is TCP && UDP ?
 3. Js Is singleThreaded and why is it so?
 4.  Do you know interpreted programming language ?
