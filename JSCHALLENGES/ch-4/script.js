@@ -8,3 +8,5 @@ mySet.add('value1');
 mySet.add('value2');
 console.log(mySet);
 
+//Map:- used to store key-value pairs where each key is unique.
+//Set:- used to store unique values of any type, where each value is unique.
