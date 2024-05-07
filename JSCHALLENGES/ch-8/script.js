@@ -18,3 +18,12 @@ function refreshCounter() {
     count = 0;
     document.getElementById("count").textContent = count;
 }
+
+function decreaseCounter(){
+    if(count > 0){
+        count--;
+    document.getElementById("count").textContent = count;
+    var decreaseButton = document.getElementById("decrease");
+    decreaseButton.disabled = count === 0;
+    }
+}

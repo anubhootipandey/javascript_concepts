@@ -8,8 +8,8 @@ body{
 .container{
     display: flex;
     padding: 20px;
-    margin: 200px 500px;
-    width: 200px;
+    margin: 200px 400px;
+    width: 500px;
     height: 200px;
     background-color: thistle;
     flex-direction: column;
