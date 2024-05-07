@@ -14,7 +14,7 @@ function increaseCounter() {
     document.getElementById("count").textContent = count;
 }
 
-function refreshCounter() {
+function resetCounter() {
     count = 0;
     document.getElementById("count").textContent = count;
 }
