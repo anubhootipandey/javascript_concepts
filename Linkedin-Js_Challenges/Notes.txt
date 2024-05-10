@@ -1,0 +1,48 @@
+1.Description
+Agrilearn Network is a comprehensive platform designed to empower farmers with essential insights and resources for 
+successful agriculture practices. Our platform serves as an indispensable resource, offering a holistic approach enriched
+with detailed guidance, in-depth knowledge and strategic management approaches across various facets of farming.
+Github:- https://github.com/Suchitra-Sahoo/AgriLearnNetwork
+Tech Stack: HTML, CSS and JS
+
+2.Description
+It is a community site named as Open Source Village, It is a simple landing page which provides link for the joining 
+the discord server and following on social media handles.
+Github:  https://github.com/Its-Aman-Yadav/Community-Site
+Tech Stack: HTML, CSS, JS
+
+3.Description
+CareerZunction, an open-source platform, offers 200+ internships. Its user-friendly interface enables students to access 
+career resources and foster professional growth. By connecting students with diverse opportunities, it empowers them in 
+their career journeys.
+Github: https://github.com/HimanshuNarware/CareerZunction_Intern
+Tech Stack: HTML, CSS, SCSS, Reactjs
+
+4.Description
+CalcDiverse is a customized collection of calculators for various aspects of mathematics. Individuals with basic 
+web development knowledge can create distinctive calculators and submit pull requests.
+Github: https://github.com/Rakesh9100/CalcDiverse
+Tech Stack: Html, css, js
+
+5.Description
+Aim Of This Project is To Make a Startup page for the browsers, and also Implement The Features Like MacOS's Spotlight. 
+Features Like Searching And Making The Page More Usable and Resourcefull.
+Github:https://github.com/Omkar-Sonawane-23/Maa-Vimala
+Tech Stack: Html, css, js
+
+6.Description
+Tourism Is A Simple Project That Gives You The Simple Information About The Best Places To Visit In India.
+Github: https://github.com/Omkar-Sonawane-23/Tourism
+Tech Stack: Reactjs
+
+7.Description
+Shopnex is your one-stop destination for fashionable clothing for the entire family. Discover a wide selection of men's, 
+women's, and kids' apparel, ensuring that everyone can find the perfect style and fit. Shop with confidence and 
+convenience at Shopnex for all your clothing needs.
+Github: https://github.com/JiyaGupta-cs/ShopNex
+Tech Stack: Html, css, js, Reactjs
+
+
+
+
+
