@@ -39,17 +39,41 @@
 
 //for of loop in array
 
-const cars = ['car1', 'car2', 'car3'];
+// const cars = ['car1', 'car2', 'car3'];
 
-for(let car of cars){
-    console.log(car);
-}
+// for(let car of cars){
+//     console.log(car);
+// }
 
-//for in loop
+// //for in loop in array
 
-const pens = ['pen1', 'pen2'];
-const pen2 = []
+// const pens = ['pen1', 'pen2'];
+// const pen2 = []
 
-for(let i in pens){
-    console.log(i);
-}
+// for(let i in pens){
+//     console.log(i);
+// }
+
+/*--------------------------------------------------------------*/
+
+//array destructuring
+
+const myArr = ['val1', 'val2', 'val3', 'val4', 'val5'];
+
+// let myVar1 = myArr[0];
+// let myVar2 = myArr[1];
+// console.log(myVar1, myVar2);
+
+let [myVar1, myVar2, myVar3, ...myNewArr] = myArr;
+console.log(myVar1, myVar2, myVar3);
+console.log(myNewArr);
+
+
+
+
+
+
+
+
+
+
