@@ -124,16 +124,38 @@ reduce
 //--------------------------------------Reduce----------------------------------
 
 //task: sum of all the numbers in array
-const numbers = [2, 4, 5, 7, 6]
+// const numbers = [2, 4, 5, 7, 6]
 
-const sum = numbers.reduce((accumulator, currentVal) => {
-    return accumulator + currentVal;
-});
-console.log(sum);
+// const sum = numbers.reduce((accumulator, currentVal) => {
+//     return accumulator + currentVal;
+// }, 100);//initial value after callback function
+// console.log(sum);
 
 //accumulator  currentVal    return
 //  2             4             6
 //  6             5             11
 //  11            7             18
 //  18            6             24
+
+
+const userCart = [
+    {productId: 1, productName: "mobile", price:12000},
+    {productId: 2, productName: "laptop", price:32000},
+    {productId: 3, productName: "tv", price:29000}
+]
+
+
+const userData = userCart.reduce((totalPrice, currentProduct) => {
+    return totalPrice + currentProduct.price ;
+}, 0);
+
+console.log(userData)
+
+
+//total price        currentValue        return
+//  0                  {}                 12000
+//  12000              32000              44000
+// 44000               29000              73000
+
+
 
