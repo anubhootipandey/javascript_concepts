@@ -44,10 +44,46 @@
 //order is not guranteed
 //unique items only (no duplicates allowed)
 
-const numbers = new Set([3, 1, 2, 3, 2]);
-console.log(numbers);
+// const numbers = new Set([3, 1, 2, 3, 2]);
+// console.log(numbers);
+
+// const numbers = new Set();
+// numbers.add(1);
+// numbers.add("item1")
+// numbers.add(["item1", 2])
+// numbers.add(["item1", 2])
+
+// if(numbers.has(1)){
+//     console.log("1 is present.");
+// }else{
+//     console.log("1 is not present!");
+// }
+// console.log(numbers);
+
+// const numbers = new Set();
+// numbers.add(1);
+// numbers.add(2);
+// numbers.add(4);
+// numbers.add(5);
+// numbers.add(3);
+// numbers.add(17);
+
+// for(let number of numbers){
+//     console.log(number);
+// }
 
 
+//-------------------------Example-----------------------
 
+const myArr = [1, 2, 3, 3, 5, 6, 1]
+const uniqueElements = new Set(myArr);
+console.log(uniqueElements);
 
+//Task: find the length of the set
+
+let length = 0
+for(let element of uniqueElements){
+    length++;
+}
+console.log(length);
 
