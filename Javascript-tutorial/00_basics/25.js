@@ -30,6 +30,14 @@ person1.fullDetails = "Hell"
 console.log(person1.fullDetails);
 
 
+//------------------------------------------------------------------------------
 
+/*In JavaScript, a constructor is a special function used to create and initialize objects. When you use a constructor function, you create an instance of an object with properties and methods defined in that constructor.
 
+Here's a simple explanation:
+
+Function Definition: A constructor function is like any other function, but it is usually defined with a capitalized name to indicate that it's intended to be used as a constructor.
+
+Using new Keyword: When you create an object using the new keyword and a constructor function, it sets up the new object and assigns properties and methods to it.
+*/
 
