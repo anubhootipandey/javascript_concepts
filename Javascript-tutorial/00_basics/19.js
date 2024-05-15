@@ -67,7 +67,7 @@ const user3 = {
     about: () => {
         console.log(this);
         console.log(this.firstName, this.age);
-    }
+    } 
 }
 user3.about.call(user3);//Since user3.about is an arrow 
 //function, its this refers to the this of the surrounding 
@@ -81,6 +81,7 @@ user3.about.call(user3);//Since user3.about is an arrow
 //object (or undefined in strict mode).
 
 
+//--------------------------------------------------------------
 
 //Arrow functions don't bind their own this, instead, 
 //they inherit this from the surrounding lexical context.
