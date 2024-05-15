@@ -33,6 +33,8 @@ Function calls within the function create their own execution contexts, which ge
 
 */
 
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 /*
 Key Components of a Function Execution Context
 Variable Object (VO): Contains function arguments, local variables, and function declarations.
