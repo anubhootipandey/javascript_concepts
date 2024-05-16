@@ -1,0 +1,158 @@
+// const mainHeading = document.getElementById("main-heading");
+// console.log(mainHeading.textContent);
+// mainHeading.textContent = "This is random"
+// console.log(mainHeading.textContent);
+
+
+//change the styles of element
+
+// const mainHeading = document.querySelector("div.headline h2");
+// // console.log(mainHeading);
+// mainHeading.style.color = "blue";
+
+/*------------------------------------------------------------------------*/
+
+//--------->get and set attribute
+// const link = document.querySelector("a");
+// console.log(link.getAttribute("href"));
+
+// const inputElement = document.querySelector(".form-todo input")
+// console.log(inputElement.getAttribute("type"));
+
+// const link = document.querySelector("a");
+// link.setAttribute("href", "https://google.com");
+// console.log(link.getAttribute("href"));
+
+//--------------want some character, so use slice
+// const link = document.querySelector("a");
+// console.log(link.getAttribute("href").slice(1));
+
+/*------------------------------------------------------------------------*/
+
+//get multiple elements using getElements by class name
+//get multiple elements items using querySelectorAll
+
+// const navItems = document.getElementsByClassName("nav-item");//html collection
+// console.log(navItems);
+// console.log(navItems[2]);
+// console.log(Array.isArray(navItems));
+
+
+// const navItems = document.querySelectorAll(".nav-item");//nodelist
+// console.log(navItems[2]);
+
+/*------------------------------------------------------------------------*/
+
+//array like object----->indexing, length property
+
+
+const navItems = document.getElementsByTagName("a");//html collection
+//  for(let i=0; i<navItems.length; i++){
+//     // console.log(navItems[i]);
+//     const navItem = navItems[i];
+//     navItem.style.backgroundColor = "#fff";
+//     navItem.style.color = "green";
+//  }
+
+
+// for(let navItem of navItems){
+//     navItem.style.backgroundColor = "#fff";
+//     navItem.style.color = "green";
+//     console.log(navItem);
+// }
+
+//---------------------------------------------------------------------------------------
+
+//appendChild
+//insertBefore
+//replaceChild
+//removeChild
+
+
+//--------------------------------------------------------------------------------------------------
+
+// const sectionTodo = document.querySelector(".todo-section")
+// console.log(sectionTodo.classList);
+
+//create class or adding
+// sectionTodo.classList.add("bg-dark");
+
+//to remove class
+// sectionTodo.classList.remove("container");
+
+//to check whether the class is present or not
+// const res = sectionTodo.classList.contains("container");
+// console.log(res);
+
+
+//------toggle--->it basically checks whether the class is present or not, 
+//if present, then removes the class and if not, then adds the class
+// const res = sectionTodo.classList.toggle("bg-dark");
+// console.log(res);
+
+
+//how to create html elements using javascript
+// const todoList = document.querySelector(".todo-list");
+// todoList.innerHTML += "<li>New Todo </li>";
+
+
+//----------->document.createElement()
+//append
+//prepend---> add at the start
+//remove
+
+// const newTodoItem = document.createElement("li");
+// newTodoItem.textContent = "Teach";
+// const newTodoItemText = document.createTextNode("Teach students");
+// const todoList = document.querySelector(".todo-list");
+// newTodoItem.append(newTodoItemText);
+// todoList.append(newTodoItem)
+// console.log(newTodoItem);
+
+
+/*----------------------------------------------------------------*/
+//before
+//after
+The before and after methods are used in JavaScript to insert elements into the DOM relative to another element. These methods are part of the Element interface and allow you to insert nodes or text before or after the specified element.
+
+before Method
+The before method inserts a set of Node or DOMString objects in the same parent as the specified element, just before the specified element.
+
+Syntax
+javascript
+Copy code
+element.before(newNode1, newNode2, ...);
+element is the reference node before which new nodes are inserted.
+newNode1, newNode2, ... are the nodes or strings to insert.
+
+after Method
+The after method inserts a set of Node or DOMString objects in the same parent as the specified element, just after the specified element.
+
+Syntax
+javascript
+Copy code
+element.after(newNode1, newNode2, ...);
+element is the reference node after which new nodes are inserted.
+newNode1, newNode2, ... are the nodes or strings to insert.
+
+
+Key Points
+The before method inserts nodes or strings before the reference element.
+The after method inserts nodes or strings after the reference element.
+Both methods can insert multiple nodes or strings at once.
+These methods provide a straightforward way to dynamically manipulate the DOM by adding elements relative to existing ones.
+
+
+
+/*----------------------------------------------------------------------------------------*/
+
+elem.insertAdjacentHTML(where, html)
+beforebegin
+//afterbegin
+//beforeend
+//afterend
+
+
+
+
+
