@@ -1,6 +1,5 @@
 //--------promises && setTimeOut--------------->
 
-
 function myPromise(){
     return new Promise((res, rej) => {
         const value = false;

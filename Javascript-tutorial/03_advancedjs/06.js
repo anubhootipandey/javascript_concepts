@@ -1,6 +1,5 @@
 //----function returning promises------->
 
-
 function ricePromise(){
     const bucket = ["coffee", "chips", "vegetables", "salt", "rice"];
     return new Promise((resolve, reject) => {
