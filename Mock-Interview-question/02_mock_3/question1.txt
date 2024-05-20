@@ -1,0 +1,91 @@
+1.Why do we use alt attribute in images?
+My answer- In simpler words, we use the alt attribute in images to provide a text description of what the image is about. 
+This is important for a few reasons:
+
+a-Accessibility: Screen readers used by visually impaired users can read aloud the alt text to describe the image, 
+helping them understand its content.
+b-SEO (Search Engine Optimization): Search engines use alt text to understand and index images, which can improve the 
+visibility of your website in search results.
+c-Fallback: If the image fails to load, the alt text will be displayed instead, giving users context about the missing image.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+2.What is DOCTYPE in HTML?
+My answer:- It tells web browsers which version of HTML the page is written in. This helps the browser to correctly render the page.
+Importance of <!DOCTYPE>:
+
+a-Defines the Document Type: It specifies the version of HTML or XHTML used in the document.
+
+b-Helps with Browser Compatibility: Different versions of HTML have different rules and standards. 
+The <!DOCTYPE> declaration ensures that the browser interprets the page correctly.
+
+c-Quirks Mode vs Standards Mode: Without a <!DOCTYPE> declaration, browsers may enter "quirks mode," 
+where they try to interpret the page as if it were written for older versions of HTML. 
+This can lead to inconsistent rendering.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+3.What is the purpose of <head> tag in HTML?
+My answer:-The <head> tag in HTML is used to provide metadata and other information about the HTML document. 
+It contains elements that specify information about the document, such as its title, character set, styles, scripts, 
+and other meta information. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+4.What is pseudo class?
+My answer:-A pseudo-class in CSS is a keyword added to selectors that specifies a special state of the selected elements. 
+It allows you to style elements based on user interaction or their current state.
+Examples: ':hover, :focus, :active, :first-child, :last-child, :nth-child(), :nth-of-type(), :nth-last-of-type() and :checked'
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+5.What is the purpose of pseudo classes?
+My answer:-
+Purpose of Pseudo-classes:
+
+a--Enhancing User Experience: Pseudo-classes allow you to create interactive and responsive designs, 
+improving the user experience by providing visual feedback based on user actions.
+b--Styling Based on State: They enable styling elements based on their state or position in the document 
+structure without needing to modify the HTML or use JavaScript.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+6.What are cascade rules?
+My answer:- The cascade in CSS determines which styles are applied to elements based on their specificity, order of appearance in the stylesheet, 
+and the use of the !important keyword. It ensures that styles are applied predictably and allows for effective management of styles across 
+a web page or application.
+
+Cascade Rule in CSS:
+a--Specificity: CSS rules with a higher specificity are applied over rules with lower specificity. Specificity is determined by:
+                Inline styles (style attribute on an element) have the highest specificity.
+                ID selectors (#example) have higher specificity than class selectors (.example) and tag selectors.
+                Class selectors have higher specificity than tag selectors.
+b--Order of Appearance: If two rules have the same specificity, the rule that appears last in the stylesheet (or is defined last in the code) is applied.
+c--Important Rule: Styles marked with !important have the highest precedence and override all other styles, regardless of specificity or order.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+7.Why do we use media queries?
+My answer:-we use media queries in CSS to make our websites look good on different devices and screen sizes. Here’s why:
+a---Responsive Design: Media queries allow us to apply different styles to a web page based on the characteristics of the device or viewport, 
+like its width, height, or orientation (landscape or portrait).
+b---Adaptability: They help us create designs that adapt and look good on various devices, from large desktop monitors to tablets and smartphones.
+c---Tailored Experiences: With media queries, we can change the layout, font sizes, images, and other design elements to provide the best user 
+experience for each device.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+

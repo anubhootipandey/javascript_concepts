@@ -1,0 +1,37 @@
+1. Difference between pseudo elemnt and pseudo class?
+My answer-
+a--Pseudo-class: A pseudo-class is like a "state" of an element. It's used to style an element when it's in a certain state or condition, like :hover, :active, or :focus.
+b--Pseudo-element: A pseudo-element, on the other hand,allows you to style specific parts of an element. It creates virtual elements that don't exist in the HTML, like ::before or ::after, which can be used to add content or style a specific part of an element.
+
+--------------------------------------------------------------
+
+2.Difference between margin and padding?
+My answer:-
+a--Margin: Margin is the space outside the border of an element. It creates space between the element and other elements around it.
+b--Padding: Padding is the space inside the border of an element. It creates space between the element's content and its border.
+
+--------------------------------------------------------------
+
+3.Difference between box-sizing: border-box | content-box ?
+My answer:-
+a--content-box: This is the default box-sizing behavior. When you set an element to box-sizing: content-box;, the width and height you assign to the element only apply to the content of the element. Padding and border are added to the width and height.
+b--border-box: When you set an element to box-sizing: border-box;, the width and height you assign to the element include the padding and border of the element. This means that the padding and border are included inside the element's specified width and height, so the overall size of the box is the width and height you set.
+
+--------------------------------------------------------------
+
+4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
