@@ -1,0 +1,69 @@
+1.What is http?
+My answer:- HTTP stands for Hyper Text Transfer Protocol. It is the foundation of data comminication on the web.
+When you type a web address (like www.google.com) into your browser, HTTP is the protocol used to transfer the web page
+from the server to your browser.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.Difference between http and https?
+My answer:- 
+HTTP- data sent using http is not encrypted that means anyone on the network can potentially see what you are doing.
+    -It typically uses port 80.
+HTTPs-Data sent using https is encrypted using SSL/TLS that means making it much harder for anyone to see or tamper 
+    with the data. 
+    -Typically uses port 443.
+    -Websites using https are generally trusted more beacuse they ensure secure connections.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+3.Whenever some websites load let's say if we go to google.com in which all these things load HTML and CSS and JavaScript do they load immediately or one by one how do they load?
+My answer:-
+Step 1. DNS Lookup- Your browser translates the website URL into an IP address to locate the server hosting the site.
+Step 2. HTTP/HTTPs Request- The browser sends a request to the server to fetch the web page.
+Step 3. Server Response-The server responds by sending the HTML file, which is the main structure of the webpage.
+Step 4. HTML Loading- The browser starts reading the html from top to bottom. As it reads, it builds the structure of the page(called the DOM).
+        If the HTML includes links to CSS or JS files, the browser makes separate HTTP requests to fetch these files.
+Step 5. CSS Loading- The browser downloads these CSS files and applies the styles to the HTML, determing how everything looks.
+        This process is crucial because the browser often won't render the page until the CSS is loaded and applied.
+Step 6. Javscript Loading- JS files can be linked in the <head>, at the end of the <body>, or inline within the HTML.
+        If the browser encounters a <script> tag without attributes, it will stop rendering, fetch the script, and execute it immediately. 
+        This can block the page rendering process.
+        To avoid blocking, you can use the 'async' and 'defer' attribhutes:
+           'async'- The script is fetched and executed asynchronously as soon as its available, without blocking HTML parsing.
+           'defer'- The script is fetched in parallel but executed only after the HTML parsing is complete.
+Step &. Rendering-Once the HTML is parsed, CSS is loaded and applied, and JavaScript is executed (if not deferred), the browser can render the content on the screen.
+        Images and other media resources may continue to load in the background. 
+The goal is to make the critical content load as fast as possible, which is why CSS is prioritized over JavaScript for initial rendering, and JavaScript is often loaded in ways that minimize blocking the rendering process.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.Difference between element and tag in html?
+My answer:-
+Tag- Tags are the building blocks of HTML. They are used to mark the beginning and end of an HTML element.
+Element-An element consists of an opening tag, content, and a closing tag. It's the complete structure used to define content and attributes in HTML.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5.What are the semantic tag in html?
+My answer:- Semantic tags in HTML are tags that provide meaning about the content they enclose, both to the browser and to developers. These tags make the structure of the HTML document more readable and meaningful. 
+            They help improve accessibility, SEO, and maintainability of web pages by clearly defining the different parts of a web page.
+            Common semantic tags:- <header>, <footer>, <nav>, <main>, <article>, <section>, <aside>, <figure>, <figcaption> and <mark>.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6.Benefits of using sematic tags?
+My answer-
+a.It is more readable and maintainable for the developers.
+b.It provides SEO, means search engines can more accurately index the content of the webpage.
+c.It improves accessibility means readers and assitive technologies can better understand and navigate the structure of a webpage.
+d. It helps apply consistent styling across different sections of a webpage.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7.Difference between div and span tag?
+My answer-
+div- is block level element.
+span- is inline element.
+
+
+
