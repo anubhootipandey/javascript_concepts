@@ -29,7 +29,49 @@ Not all properties are inherited by default. Properties like color, font-family,
 To control inheritance, you can use the inherit value explicitly or initial to revert to the default value for that property.
 
 --------------------------------------------------------------
+-------------------------JAVASCRIPT---------------------------
+--------------------------------------------------------------
 
+1.Difference between == and ===?
+My answer:-
+==:-checks for the value not the datatype.
+===:-checks for both the value and datatype.
+
+--------------------------------------------------------------
+
+2.Difference between if-else and ternary operator?
+My answer:-
+if-else: A conditional statement that executes one block of code if a condition is true and another block if it is false. It is more verbose and can handle multiple statements.
+It is a statement.
+
+Ternary operator: A compact conditional expression that evaluates a condition and returns one value if true and another if false. It is written in a single line: condition ? valueIfTrue : valueIfFalse.
+It is an expression.
+
+--------------------------------------------------------------
+
+3.Difference between function declaration and function expression?
+My answer:-Function declarations are hoisted and can be called before they appear in the code, while function expressions are not hoisted and must be defined before they are called.
+
+--------------------------------------------------------------
+
+4.How do we handle errors in javascript?
+My answer:-
+a--try block: Wraps the code that may throw an error.
+b--catch block: Executes if an error occurs in the try block. It captures the error and allows you to handle it.
+c--finally block (optional): Executes after the try and catch blocks, regardless of whether an error occurred.
+
+--------------------------------------------------------------
+
+5.What is hoisting?
+My answer:-Hoisting in JavaScript is a behavior where variable and function declarations are moved to the top of their containing scope during the compile phase. This means you can use variables and functions before you declare them in the code. However, only the declarations are hoisted, not the initializations.
+
+a--Variable hoisting: Variables declared with var are hoisted to the top of their scope, but their initialization is not hoisted. This means they are undefined until the assignment occurs in the code.
+
+b--Function hoisting: Function declarations are hoisted with both their name and body, so you can call the function before it is defined in the code.
+
+c--Let and const: Variables declared with let and const are also hoisted but are not initialized. They remain in a "temporal dead zone" from the start of the block until the declaration is encountered, meaning you cannot use them before the declaration.
+
+--------------------------------------------------------------
 
 
 
