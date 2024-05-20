@@ -19,7 +19,17 @@ b--border-box: When you set an element to box-sizing: border-box;, the width and
 
 --------------------------------------------------------------
 
-4.
+4.What is inheritance in CSS?
+My answer:- Inheritance in CSS refers to the mechanism by which certain properties of an HTML element are passed down to its children. Here's a simplified explanation:
+
+When you apply a style to an element, such as a color or font size, that style can be inherited by its child elements unless explicitly overridden. This allows you to set styles at a higher level in the HTML hierarchy and have them apply to all nested elements unless a child element has its own style for that property.
+
+Not all properties are inherited by default. Properties like color, font-family, font-size, line-height, text-align, etc., are inherited, while properties like margin, padding, border, etc., are not.
+
+To control inheritance, you can use the inherit value explicitly or initial to revert to the default value for that property.
+
+--------------------------------------------------------------
+
 
 
 
