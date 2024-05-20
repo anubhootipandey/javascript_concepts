@@ -61,9 +61,97 @@ d. It helps apply consistent styling across different sections of a webpage.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7.Difference between div and span tag?
-My answer-
-div- is block level element.
-span- is inline element.
+My answer- div and span are non-sematic elements in HTML.
+div-  is a block-level element used to group larger chunks of content. It often acts as a container for other HTML elements to apply styles or scripts to multiple elements at once.
+      Block-level, meaning it starts on a new line and takes up the full width available.
+      Commonly used for layout purposes, such as creating sections, columns, and overall structure of a webpage.
+span-  is an inline element used to group small portions of text or other inline elements. It is often used to apply styles or scripts to a specific part of the text within a larger block of content.
+       Inline, meaning it does not start on a new line and only takes up as much width as necessary.
+       Commonly used for styling a part of a text within a paragraph or other inline elements, such as changing the color of a word or adding a tooltip to a specific piece of text.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8.When to use div and span?
+My answer:-
+div- When you need to create a container for other elements and want to apply styles, scripts, or layout properties to a group of elements. 
+     Ideal for sections, headers, footers, articles, and other structural divisions.
+span- When you need to apply styles or scripts to a small part of the content, such as highlighting a word, adding a tooltip, or styling a specific piece of text within a larger block element.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9.What is specificity in CSS?
+My answer:-Specificity in CSS is a set of rules that determines which styles are applied to an element when there are multiple conflicting styles. 
+           It helps the browser decide which CSS rules take precedence and should be applied.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10.Which has highest or lowest specificity in CSS?
+My answer:- Styles written directly in the HTML element (e.g., <div style="color: red;">) have the highest specificity.
+Element selectors (e.g., p, div) have the lowest specificity.
+Class selectors (e.g., .class-name) have higher specificity than element selectors.
+ID selectors (e.g., #id-name) have higher specificity than class selectors.
+
+******NOTE******-----> Using !important overrides any other specificity rules, but it's generally best to avoid using it as it can make your CSS harder to manage.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11.How to calculate specificity?
+My answer:- Specificity is calculated based on the types of selectors used:
+a-Inline styles: 1000 points
+b-ID selectors: 100 points each
+c-Class selectors, attribute selectors, and pseudo-classes: 10 points each
+d-Element selectors and pseudo-elements: 1 point each
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12.What is box model?
+My answer:- The box model is a fundamental concept that describes how elements on a web page are structured and how their dimensions are calculated. It essentially defines the space that an element occupies on the page, including its content, padding, border, and margin.
++----------------------------+
+|         Margin             |
+|  +----------------------+  |
+|  |       Border         |  |
+|  |  +----------------+  |  |
+|  |  |    Padding     |  |  |
+|  |  |  +----------+  |  |  |
+|  |  |  |  Content |  |  |  |
+|  |  |  +----------+  |  |  |
+|  |  +----------------+  |  |
+|  +----------------------+  |
++----------------------------+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13.Default value of box-sizing?
+My answer:-By default, browsers use the content-box value for the box-sizing property. 
+           This means that the width and height you set for an element only apply to the content area. 
+           Padding and border are added outside of this width and height.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+14.Difference between position: absolute | relative?
+My answer:-
+Relative: Element remains in normal flow but can be moved using top, right, bottom, left.
+Absolute: It takes an element out of the normal flow and positions it based on its nearest positioned ancestor or the whole page if none exist.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15.Default value of position property?
+My answer:-The default value of the position property in CSS is static.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
