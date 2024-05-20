@@ -253,7 +253,9 @@ d-Predictable Rendering: React optimizes rendering based on changes in state, en
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+26.What does setTimeOut() do>
+My answer:- In JavaScript, setTimeout is used to schedule a function (or code) to run after a specified number of milliseconds. 
+            Even if the delay is set to 0, the specified function will still execute asynchronously, allowing other code in the main execution thread to continue.
 
 
 
