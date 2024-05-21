@@ -1,0 +1,51 @@
+body{
+    background: url("pic.jpg");
+    position: relative;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.todo-content{
+    display: flex;
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid aquamarine;
+    background: transparent;
+}
+
+input[type="text"]::placeholder{
+    font-weight: normal;
+}
+
+button{
+    padding: 10px;
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+    background: transparent;
+    width: 70px;
+    border: 2px solid aquamarine;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(16, 204, 141);
+    border: 2px solid aquamarine;
+    color: #fff;
+}
