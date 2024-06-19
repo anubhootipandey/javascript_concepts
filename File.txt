@@ -1,1 +1,0 @@
-Iavascript is single-threaded, it means it can work one task at a time and can't perform multiple task at same time.
