@@ -3,3 +3,5 @@
 3. What are higher order function?
 4. What are callbacks?
 5. What is event loop?
+6. What is closures?
+7. What is hosting?
