@@ -4,4 +4,10 @@
 4. What are callbacks?
 5. What is event loop?
 6. What is closures?
-7. What is hosting?
+7. What is hoisting?
+8. What is the output of the following?
+   console.log("start");
+   setTimeout(() => {
+    console.log("Inside setTimeout");
+   }, 0);
+   console.log("end");
