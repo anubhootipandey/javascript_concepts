@@ -13,3 +13,4 @@
    console.log("end");
 9. What is event delegation?
 10. What is event propagation?
+11. What is DOM manipulation?
