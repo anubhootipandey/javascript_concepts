@@ -40,7 +40,21 @@ y *= 3;
 let b = 15;
 b /= 3;
 
-
+// 5--> Bitwise Operators
+// AND (&)
+let bitwiseAnd = (5 & 1); // 1
+// OR (|)
+let bitwiseOr = (5 | 1); // 5
+// NOT (~)
+let bitwiseNot = (~5); // -6
+// XOR (^)
+let bitwiseXor = (5 ^ 1); // 4
+// Left shift (<<)
+let leftShift = (5 << 1); // 10
+// Right shift (>>)
+let rightShift = (5 >> 1); // 2
+// Unsigned right shift (>>>)
+let unsignedRightShift = (5 >>> 1); // 2
 
 
 
