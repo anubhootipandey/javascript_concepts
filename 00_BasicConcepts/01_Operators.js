@@ -56,12 +56,43 @@ let rightShift = (5 >> 1); // 2
 // Unsigned right shift (>>>)
 let unsignedRightShift = (5 >>> 1); // 2
 
+// 6-->Other Operators
+// Conditional (ternary) operator (condition ? expr1 : expr2)
+let age = 18;
+let message = (age >= 18) ? 'You are an adult.' : 'You are a minor.';
 
+// Comma operator (,)
+let j = 1;
+let k = 2;
+let result = (j++, k++); // result is 2 (evaluates to the last operand)
 
+// Unary plus (+)
+let w = '5';
+let answer = +w; // result is 5 (string converted to number)
 
+// Unary negation (-)
+let g = '5';
+let res = -g; // result is -5 (string converted to number and negated)
 
+// Increment (++)
+let p = 5;
+p++; // p is now 6
 
+// Decrement (--)
+let l = 5;
+l--; // l is now 4
 
+// Typeof (typeof)
+let d = 5;
+let ans = typeof d; // result is 'number'
 
+// Delete (delete)
+let obj = { prop: 5 };
+delete obj.prop; // obj is now {}
+
+// Void (void)
+void function() {
+    console.log('This will be undefined');
+}();
 
 
