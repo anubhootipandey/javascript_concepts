@@ -86,7 +86,7 @@ Function expression with a name, useful for recursion and debugging.
 4. Arrow Function: 
 Concise syntax, always anonymous, no own this context, introduced in ES6.
 -----------------------------------------------------------------------------------------------------*/
-  
+
 
 
 
